@@ -1,0 +1,207 @@
+
+/*-------------------------------------------
+	Hero
+-------------------------------------------*/
+
+
+#hero {
+
+	.wrap {
+
+		position: relative;
+		max-width: none;
+		height: 360px;
+		padding: 0;
+		overflow: hidden;
+
+	}
+
+		picture {
+
+			position: absolute;
+			left: 50%;
+			top: 0;
+			height: 100%;
+			-webkit-transform: translate(-50%, 0);
+			-moz-transform: translate(-50%, 0);
+			-ms-transform: translate(-50%, 0);
+			-o-transform: translate(-50%, 0);
+			transform: translate(-50%, 0);
+			z-index: 1;
+
+		}
+
+			img {
+
+				max-width: none;
+				height: 100%;
+
+			}
+
+		.overlay {
+
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+
+		}
+
+			.inner-overlay {
+
+				display: table;
+				width: 100%;
+				max-width: 1220px;
+				height: 100%;
+				margin: 0 auto;
+				padding: 0 20px;
+
+			}
+
+				.inner-inner-overlay {
+
+					display: table-cell;
+					vertical-align: middle;
+
+					// About Us, Products & Services, Contact
+
+					.page-id-12 &,
+					.page-id-84 &,
+					.page-id-16 & {
+
+						@media screen and (min-width: 700px) {
+
+							padding: 0 0 0 95px;
+
+						}
+
+						@media screen and (min-width: 1000px) {
+
+							padding: 0 0 0 190px;
+
+						}
+
+					}
+
+					// Print
+
+					.postid-144 & {
+
+						padding: 0 0 0 485px;
+
+					}
+
+					// Websites
+
+					.postid-145 & {
+
+						padding: 0 0 0 130px;
+
+					}
+
+					// Custom Apparel
+
+					.postid-146 & {
+
+						padding: 0 0 0 450px;
+
+					}
+
+					// Promotional Products
+
+					.postid-147 & {
+
+						padding: 0 0 0 450px;
+
+					}
+
+					// Shipping and Packaging Supplies
+
+					.postid-148 & {
+
+						padding: 0 0 0 460px;
+
+					}
+
+					// Logo and Graphic Design
+
+					.postid-149 & {
+
+						padding: 0 0 0 195px;
+
+					}
+
+				}
+
+					h1 {
+
+						// About Us, Products & Services, Contact
+
+						.page-id-12 &,
+						.page-id-84 &,
+						.page-id-16 & {
+
+							width: 100%;
+							max-width: 280px;
+
+						}
+
+						// Print
+
+						.postid-144 & {
+
+							width: 100%;
+							max-width: 410px;
+
+						}
+
+						// Websites
+
+						.postid-145 & {
+
+							width: 100%;
+							max-width: 420px;
+
+						}
+
+						// Custom Apparel
+
+						.postid-146 & {
+
+							width: 100%;
+							max-width: 460px;
+
+						}
+
+						// Promotional Products
+
+						.postid-147 & {
+
+							width: 100%;
+							max-width: 400px;
+
+						}
+
+						// Shipping and Packaging Supplies
+
+						.postid-148 & {
+
+							width: 100%;
+							max-width: 420px;
+
+						}
+
+						// Logo and Graphic Design
+
+						.postid-149 & {
+
+							width: 100%;
+							max-width: 420px;
+
+						}
+
+					}
+
+}

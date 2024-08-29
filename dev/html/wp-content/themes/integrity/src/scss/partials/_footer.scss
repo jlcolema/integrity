@@ -1,0 +1,25 @@
+
+/*-------------------------------------------
+	Footer
+-------------------------------------------*/
+
+
+#footer {
+
+	// Temporarily hidden...
+
+	display: none;
+
+	padding: 40px 0;
+
+	.wrap {}
+
+}
+
+		#copyright {
+
+			margin: 0;
+			@include font-size(14);
+			line-height: (26/14) + em;
+
+		}

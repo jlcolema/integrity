@@ -1,0 +1,129 @@
+
+//-------------------------------------------
+//	Fonts
+//-------------------------------------------
+
+
+// Font Family: Open Sans
+// Service: Google Fonts
+// URL: https://www.google.com/fonts/specimen/Open+Sans
+
+
+// Light
+
+
+@mixin open-sans-light {
+
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+
+}
+
+
+// Light Italic
+
+
+@mixin open-sans-light-italic {
+
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-style: italic;
+
+}
+
+
+// Normal
+
+
+@mixin open-sans-normal {
+
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+
+// Normal Italic
+
+
+@mixin open-sans-normal-italic {
+
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+
+}
+
+
+// Semibold
+
+
+@mixin open-sans-semibold {
+
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+
+}
+
+
+// Semibold Italic
+
+
+@mixin open-sans-semibold-italic {
+
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-style: italic;
+
+}
+
+
+// Bold
+
+
+@mixin open-sans-bold {
+
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+
+}
+
+
+// Bold Italic
+
+
+@mixin open-sans-bold-italic {
+
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+
+}
+
+
+// Extrabold
+
+
+@mixin open-sans-extrabold {
+
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+
+}
+
+
+// Extrabold Italic
+
+
+@mixin open-sans-extrabold-italic {
+
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	font-style: italic;
+
+}

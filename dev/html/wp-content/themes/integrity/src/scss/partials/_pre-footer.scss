@@ -1,0 +1,377 @@
+
+/*-------------------------------------------
+	Pre-Footer
+-------------------------------------------*/
+
+
+#pre-footer {
+
+	padding: 40px 0 44px 0;
+	background: $black;
+
+	.wrap {}
+
+}
+
+		.blocks {
+
+			@media screen and (min-width: 480px) {
+
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: -ms-flexbox;
+
+				display: flex;
+
+
+				-webkit-box-orient: horizontal;
+				-webkit-box-direction: normal;
+				-webkit-flex-direction: row;
+				-ms-flex-direction: row;
+
+				flex-direction: row;
+
+
+				-webkit-flex-wrap: wrap;
+				-ms-flex-wrap: wrap;
+
+				flex-wrap: wrap;
+
+				-webkit-box-pack: justify;
+				-webkit-justify-content: space-between;
+				-ms-flex-pack: justify;
+
+				justify-content: space-between;
+
+
+				-webkit-box-align: start;
+				-webkit-align-items: flex-start;
+				-ms-flex-align: start;
+
+				align-items: flex-start;
+
+
+				-webkit-align-content: flex-start;
+				-ms-flex-line-pack: start;
+
+				align-content: flex-start;
+
+			}
+
+			@media screen and (min-width: 760px) {
+
+				flex-wrap: no-wrap;
+
+			}
+
+			@media screen and (min-width: 900px) {
+
+				justify-content: flex-start;
+
+			}
+
+		}
+
+			.block {}
+
+			// Block One
+
+			.secondary-nav {
+
+				margin: 0 0 30px;
+
+				@media screen and (min-width: 480px) {
+
+					width: 50%;
+					width: calc(50% - 22px);
+
+				}
+
+				@media screen and (min-width: 760px) {
+
+					width: 25%;
+					width: calc(25% - 22px);
+					margin: 0;
+
+				}
+
+				@media screen and (min-width: 900px) {
+
+					width: 18.5%;
+					padding: 0 20px 0 0;
+
+				}
+
+				ul {
+
+					margin: 0;
+					padding: 0;
+					list-style: none;
+
+				}
+
+					li {
+
+						@include font-size(14);
+						line-height: (26/14) + em;
+
+					}
+
+						a {
+
+							color: $white;
+							text-decoration: none;
+
+							&:hover {
+
+								text-decoration: underline;
+
+							}
+
+						}
+
+			}
+
+			// Block Two
+
+			.services-nav {
+
+				margin: 0 0 30px 0;
+
+				@media screen and (min-width: 480px) {
+
+					width: 50%;
+					width: calc(50% - 22px);
+
+				}
+
+				@media screen and (min-width: 760px) {
+
+					width: 25%;
+					width: calc(25% - 22px);
+					margin: 0;
+
+				}
+
+				@media screen and (min-width: 900px) {
+
+					width: 22%;
+					padding: 0 20px 0 0;
+
+				}
+
+				ul {
+
+					margin: 0;
+					padding: 0;
+					list-style: none;
+
+				}
+
+					li {
+
+						@include font-size(14);
+						line-height: (26/14) + em;
+
+					}
+
+						a {
+
+							color: $white;
+							text-decoration: none;
+
+							&:hover {
+
+								text-decoration: underline;
+
+							}
+
+						}
+
+			}
+
+			// Block Three
+
+			.contact-info {
+
+				margin: 0 0 30px 0;
+				@include font-size(14);
+				line-height: (26/14) + em;
+				color: $white;
+
+				@media screen and (min-width: 480px) {
+
+					width: 50%;
+					width: calc(50% - 22px);
+
+				}
+
+				@media screen and (min-width: 480px) {
+
+					margin: 0;
+
+				}
+
+				@media screen and (min-width: 760px) {
+
+					width: 25%;
+					width: calc(25% - 22px);
+
+				}
+
+				@media screen and (min-width: 900px) {
+
+					width: 22.5%;
+					padding: 0 20px 0 0;
+
+				}
+
+				.p-name {
+
+					display: none;
+
+				}
+
+				.p-adr {}
+
+					.p-street-address {}
+
+					.p-locality {
+
+						&:after {
+
+							content: "\002C";
+
+						}
+
+					}
+
+					.p-region {}
+
+					.p-postal-code {}
+
+				.p-tel {
+
+					a {
+
+						color: $white;
+						text-decoration: none;
+
+						&:hover {
+
+							text-decoration: underline;
+
+						}
+
+					}
+
+				}
+
+				.fax {
+
+					a {
+
+						color: $white;
+						text-decoration: none;
+
+						&:hover {
+
+							text-decoration: underline;
+
+						}
+
+					}
+
+				}
+
+				.u-email {
+
+					a {
+
+						color: $white;
+						text-decoration: none;
+
+						&:hover {
+
+							text-decoration: underline;
+
+						}
+
+					}
+
+				}
+
+			}
+
+			// Block Four
+
+			.a-division-of {
+
+				@media screen and (min-width: 480px) {
+
+					width: 50%;
+					width: calc(50% - 22px);
+
+				}
+
+				@media screen and (min-width: 760px) {
+
+					width: 25%;
+					width: calc(25% - 22px);
+
+				}
+
+				@media screen and (min-width: 900px) {
+
+					position: relative;
+					width: 37%;
+					min-height: 103px;
+					padding: 0 0 0 192px;
+
+				}
+
+				img {
+
+					margin: 0 0 7px 0;
+
+					@media screen and (min-width: 900px) {
+
+						position: absolute;
+						left: 0;
+						top: 7px;
+						margin: 0;
+						z-index: 1;
+
+					}
+
+				}
+
+				.detail {
+
+					@include font-size(14);
+					line-height: (26/14) + em;
+					color: $white;
+
+					@media screen and (min-width: 900px) {
+
+						padding: 0 0 0 10px;
+
+					}
+
+				}
+
+					.needs-a-name {}
+
+						i {}
+
+					.needs-a-name {}
+
+						b {}
+
+					p {
+
+						margin: 0;
+
+					}
+
+			}
