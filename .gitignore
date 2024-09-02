@@ -1,5 +1,5 @@
 .DS_Store
 *.sql
-new
 wp-config*
 backupwordpress*
+organize/*
